@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                    Button(onClick = {
                        count++                                //by clicking the button the number increment
                    }) {
-                       Text(text = "click me to increment")
+                       Text(text = "click me to increment: $count")
                    }
 
                }
